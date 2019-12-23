@@ -8,6 +8,3 @@ else array.length > 2
   array.join(", ")
 end
 end
-
-
-#new_array = array.map.with_index(2){|n| "and #{n}"}
