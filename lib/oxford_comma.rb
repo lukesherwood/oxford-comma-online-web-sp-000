@@ -4,7 +4,7 @@ if array.length == 1
 elsif array.length == 2
   array.join(" and ")
 else array.length > 2
-  array[length-1].map{|last| "and #{last}"
+  array[length-1].map{|last| "and #{last}"}
   array.join(", ")
 end
 end
